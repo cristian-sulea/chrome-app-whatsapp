@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+
+    "name": "WhatsApp™ for Chrome™",
+    "short_name": "WhatsApp™",
+    "description": "Quickly send and receive WhatsApp™ messages right from your computer.",
+
+    "version": "1.0",
+
+    "icons": {
+        "16": "icons/016.png",
+        "32": "icons/032.png",
+        "48": "icons/048.png",
+        "64": "icons/064.png",
+        "128": "icons/128.png"
+    },
+
+    "app": {
+        "launch": {
+            "web_url": "https://web.whatsapp.com/",
+            "container": "panel"
+        }
+    }
+}
